@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>back 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="全局" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="图片放大" transform="translate(-1041.000000, -914.000000)">
+            <g id="分组-15" transform="translate(1035.000000, 908.000000)">
+                <g id="back-2" transform="translate(16.000000, 16.000000) scale(-1, 1) translate(-16.000000, -16.000000) translate(6.000000, 6.000000)">
+                    <g id="back">
+                        <rect id="矩形" stroke="#595959" fill="#595959" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                        <path d="M6.1416906,8.98382128 C5.44111234,9.61872034 5.45056789,10.6637015 6.16485362,11.2887015 L14.2174974,18.3347648 C14.4484067,18.5368104 14.7993859,18.5134118 15.0014315,18.2825026 C15.2034771,18.0515933 15.1800784,17.7006141 14.9491692,17.4985685 L6.89652544,10.4525052 C6.68218177,10.2649545 6.67974549,9.9957106 6.88782328,9.8071401 L14.9563997,2.49499279 C15.1837529,2.28895388 15.2010316,1.93762021 14.9949928,1.71026698 C14.7889539,1.48291378 14.4376202,1.46563505 14.210267,1.67167391 L6.1416906,8.98382128 Z" id="路径" stroke="#FFFFFF" stroke-width="0.5" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

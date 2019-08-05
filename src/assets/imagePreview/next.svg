@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>分组 5</title>
+    <desc>Created with Sketch.</desc>
+    <g id="物联监控" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="查看图片" transform="translate(-1270.000000, -534.000000)">
+            <g id="分组-3" transform="translate(602.000000, 534.000000)">
+                <g id="分组-5" transform="translate(693.000000, 25.000000) scale(-1, 1) translate(-693.000000, -25.000000) translate(668.000000, 0.000000)">
+                    <circle id="椭圆形" fill-opacity="0.6" fill="#848484" cx="25" cy="25" r="25"></circle>
+                    <g id="面包屑-copy-4" transform="translate(26.020408, 26.020408) scale(1, -1) rotate(-270.000000) translate(-26.020408, -26.020408) translate(8.163265, 8.163265)">
+                        <rect id="矩形" x="1.13686838e-13" y="0" width="35.7142857" height="35.7142857"></rect>
+                        <path d="M11.9047619,20.2302579 L26.7857143,20.2302579 L26.7857143,23.2064484 L11.9047619,23.2064484 L8.92857143,23.2064484 L8.92857143,5.34930552 L11.9047619,5.34930552 L11.9047619,20.2302579 Z" id="合并形状" fill="#FFFFFF" transform="translate(17.857143, 14.277877) rotate(-45.000000) translate(-17.857143, -14.277877) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
