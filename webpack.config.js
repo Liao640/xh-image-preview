@@ -10,7 +10,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     // publicPath: '/dist/',
     // publicPath: process.env.NODE_ENV === 'production' ? './dist/' : '/dist/',
-    publicPath: process.env.NODE_ENV === 'production' ? './' : './',
+    publicPath: process.env.NODE_ENV === 'production' ? './' : '/dist/',
     // filename: 'build.js'
     filename: 'xh-image-preview.js',
     library: 'xh-image-preview', // library指定的就是你使用require时的模块名，这里便是require("xh-image-preview")
@@ -71,10 +71,11 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
-        loader: 'file-loader',
+        loader: 'url-loader',
+        
         options: {
+          limit: 13000,
           name: 'image/[name].[ext]?[hash]',
-          // publicPath: './'
         }
       }
     ]
