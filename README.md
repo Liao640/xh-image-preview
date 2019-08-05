@@ -54,7 +54,8 @@ zoomIn | 放大图片
 zoomOut | 缩小图片
 actualSize | 预览图片1:1尺寸
 
-> A Vue.js project
+## 演示地址 
+ [http://193.112.40.54:6400/#/](http://193.112.40.54:6400/#/) 
 
 ## Build Setup
 
