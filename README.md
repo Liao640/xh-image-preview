@@ -36,12 +36,12 @@ Vue.use(xhImagePreview)
 
 ## 属性介绍
 
-参数|说明|类型|可选值|默认值
----|---|---|---|---|---
-images | 预览图片集 | Array | — | —
-defaultImage | 默认图片| string | — | images[0]
-width/height | 预览窗宽/高 | String | — | 750px/536px
-layout | 操作按钮， 参数名用逗号分隔| String | zoomIn,zoomOut,actualSize,rotate,total | zoomIn,zoomOut,actualSize,rotate,total 
+参数| 说明| 类型| 可选值| 默认值
+---|---|---|---|---
+images | 预览图片集 |Array |— | —
+defaultImage | 默认图片 |string |— | images[0]
+width/height | 预览窗宽/高 |string |— | 750px/536px
+layout | 操作按钮，<br> 参数名用逗号分隔 |string | zoomIn,zoomOut,<br>actualSize,rotate,total | zoomIn,zoomOut,<br>actualSize,rotate,total
 
 ## 事件
 
