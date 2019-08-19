@@ -38,14 +38,15 @@ Vue.use(xhImagePreview)
 
 参数| 说明| 类型| 可选值| 默认值
 ---|---|---|---|---
+visible | 控制图片预览弹显示/隐藏 |Boolean |— | false
 images | 预览图片集 |Array |— | —
 defaultImage | 默认图片 |string |— | images[0]
 width/height | 预览窗宽/高 |string |— | 750px/536px
 layout | 操作按钮，<br> 参数名用逗号分隔 |string | zoomIn,zoomOut,<br>actualSize,rotate,total | zoomIn,zoomOut,<br>actualSize,rotate,total
 
-## 事件
+## 方法
 
-事件名称| 说明
+方法名称| 说明
 ---|---
 prev | 预览上一张图片
 next | 预览下一张图片
@@ -56,6 +57,12 @@ actualSize | 预览图片1:1尺寸
 
 ## 演示地址 
  [http://193.112.40.54:6400/#/](http://193.112.40.54:6400/#/) 
+
+## 修改记录
+ #### 2019年8月19日
+ 监听images属性动态变化，更新当前预览图片信息
+
+
 
 ## Build Setup
 

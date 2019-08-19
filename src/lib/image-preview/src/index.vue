@@ -99,6 +99,10 @@ export default {
 			this.imgUrl = this.defaultImage || this.images[0]
 			this.imgIndex = this.images && this.images.indexOf(this.imgUrl)
 		},
+		images() {
+			this.imgUrl = this.defaultImage || this.images[0]
+			this.imgIndex = this.images && this.images.indexOf(this.imgUrl)
+		},
 		imgIndex() {
 			this.imgUrl = this.images[this.imgIndex]
 		}
