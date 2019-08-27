@@ -1,5 +1,5 @@
 <template>
-<div class="shade_bg" v-show="visible" @click.stop.prevent="" @scroll.stop.prevent="">
+<div class="shade_bg" v-show="visible"  @click.stop.prevent @mousewheel.prevent>
 	<!-- <div class="image_preview_wapper" @click.stop=""> -->
 	<div class="image_preview_wapper" :style="{ width: width, height: height}">
 		<!-- 按钮控制器 -->
