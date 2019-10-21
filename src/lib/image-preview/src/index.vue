@@ -95,16 +95,9 @@ export default {
 		}
 	},
 	watch: {
-		defaultImage() {	
-			this.imgUrl = this.defaultImage || this.images[0]
-			this.imgIndex = this.images && this.images.indexOf(this.imgUrl)
-		},
-		images() {
-			this.imgUrl = this.defaultImage || this.images[0]
-			this.imgIndex = this.images && this.images.indexOf(this.imgUrl)
-		},
-		imgIndex() {
-			this.imgUrl = this.images[this.imgIndex]
+		visible() {
+			this.imgUrl = this.defaultImage || this.images && this.images[0]
+			this.imgIndex = this.images ? this.images.indexOf(this.imgUrl) : -1
 		}
 	},
 	computed: {
@@ -129,7 +122,8 @@ export default {
         this.imgIndex = this.images.length - 1
       } else {
 				this.imgIndex--
-      }
+			}
+			this.imgUrl = this.images[this.imgIndex]
 			this.resetData()
     },
     next() {
@@ -138,6 +132,7 @@ export default {
       } else {
 				this.imgIndex++
 			}
+			this.imgUrl = this.images[this.imgIndex]
 			this.resetData()
 		},
 		rotate() {

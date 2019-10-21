@@ -19,19 +19,19 @@ Vue.use(xhImagePreview)
 ##### 基本用法
 ```
 #预览单张图
-<imagePreview :visible.sync="visible" :images="images"></imagePreview>
+<xh-image-preview :visible.sync="visible" :images="images"></xh-image-preview>
 
 #预览多张图
 #支持左右切换，defaultImage为打开窗口第一张图片，默认为传入图片数组中第一张
-<imagePreview :visible.sync="visible" :images="images" :defaultImage="defaultImage"></imagePreview>
+<xh-image-preview :visible.sync="visible" :images="images" :defaultImage="defaultImage"></xh-image-preview>
 ```
 ##### 属性设置
 ```
 #设置图片预览窗尺寸：600px*500px
-<imagePreview :visible.sync="visible" :images="images" width="600px" height="500px"></imagePreview>
+<xh-image-preview :visible.sync="visible" :images="images" width="600px" height="500px"></xh-image-preview>
 
 #设置图片操作按钮键:默认zoomIn,zoomOut,actualSize,rotate,total
-<imagePreview :visible.sync="visible" :images="images" layout="zoomIn,zoomOut,rotate"></imagePreview>
+<xh-image-preview :visible.sync="visible" :images="images" layout="zoomIn,zoomOut,rotate"></xh-image-preview>
 ```
 
 ## 属性介绍
@@ -59,10 +59,12 @@ actualSize | 预览图片1:1尺寸
  [http://193.112.40.54:6400/#/](http://193.112.40.54:6400/#/) 
 
 ## 修改记录
-  #### 2019年8月19日
-  监听images属性动态变化，更新当前预览图片信息
-  #### 2019年8月27日
-  预览图片弹窗层滚动事件阻止冒泡
+#### 2019年8月19日
+监听images属性动态变化，更新当前预览图片信息
+#### 2019年8月27日
+预览图片弹窗层滚动事件阻止冒泡
+#### 2019年10月21日
+监听图片动态变化，更新当前预览图片信息
 
 
 
